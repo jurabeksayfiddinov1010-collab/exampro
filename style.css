@@ -202,6 +202,28 @@
     justify-content: center;
     gap: 100px;
     align-items: center;
+    margin-top: 100px;
+}
+.s7{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-top: 100px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.sentr{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
 }
 @media (max-width:510px)
 {
@@ -272,6 +294,9 @@
     .section6{
         flex-direction: column;
         margin-top: 30px;
+    }
+    .s7{
+        flex-direction: column-reverse;
     }
 }
 @media (max-width:768px)
