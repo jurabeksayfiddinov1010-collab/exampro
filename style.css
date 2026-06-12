@@ -177,6 +177,24 @@
     justify-content: center;
     gap: 50px;
 }
+.section5{
+    margin-top: 70px;
+}
+.zzz{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    text-align: center;
+    border-radius: 15px;
+}
+.obshi{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
 @media (max-width:510px)
 {
     .texthead{
@@ -236,6 +254,12 @@
     }
     .boxcho{
         flex-direction: column;
+
+    }
+    .obshi{
+        flex-direction: column;
+        width: 65%;
+        margin: auto;
     }
 }
 @media (max-width:768px)
@@ -260,12 +284,12 @@
     }
       .divcha{
         flex-direction: column;
-        width: 50%;
+      
         margin: auto;
     }
     .boxcho{
         flex-direction: column;
-        width: 50%;
+       
         margin: auto;
     }
     
